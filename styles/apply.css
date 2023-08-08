@@ -1,0 +1,55 @@
+.form__container {
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+    width: 50rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.form__name {
+    display: flex;
+    gap: 2rem;
+}
+.form__sex{
+    display: flex;
+    gap: 2rem;
+}
+input[type="text"] {
+    background-color: var(--color-bg);
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    width: 50%;
+    
+}
+input[type="email"], input[type="number"], input[type="date"], input[type="address"], select{
+    background-color: var(--color-bg);
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    width: 95.5%;
+    
+}
+.form__marital {
+    display: flex;
+    gap: 2rem;
+}
+.btn {
+    width: max-content;
+    margin-top: 1rem;
+    background-color: white;
+}
+.btn a {
+    color: black;
+} 
+
+.btn a:hover{
+    color: white;
+}
+
+@media screen and (max-width:1024px) {
+    .form__container {
+        width: 25rem;
+    }
+}

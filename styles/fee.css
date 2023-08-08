@@ -1,0 +1,35 @@
+.table__container {
+    /* margin-top: 6rem; */
+    margin-bottom: 4rem;
+    /* margin: 0 auto; */
+    display: grid;
+    place-items: center;
+}
+table {
+    width:"1000rem";
+    height:"500rem";
+}
+table tr td {
+    text-align: center;
+}
+.table__container a {
+    place-self: start;
+    padding: 1rem;
+    color: red;
+    margin-top: 1rem;
+}
+.table__container a:hover {
+    background-color: var(--color-primary);
+    border: 1px solid white;
+
+}
+@media screen and (max-width:1024px) {
+    /* table tr #pre {
+        display: none;
+    } */
+    table {
+        width:"2000rem";
+        height:"2000rem";
+    }
+    
+}

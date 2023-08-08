@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website</title>
+
+    <link rel="stylesheet" href="./styles/index.css">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400;1,800&display=swap" rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>My School</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./innerHTML/about.html">About</a></li>
+                <li><a href="./innerHTML/courses.html">Courses</a></li>
+                <li><a href="./innerHTML/contact.html">Contact</a></li>
+            </ul>
+            <button id="openMenuBar"><i class="uil uil-bars"></i></button>
+            <button id="closeMenuBar"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>Grow your skills in any aspect in tech</h1>
+                <p>Learn how to become a good and marketable developer with expert tutors in the industry </p>
+                <div><a href="courses.html"class="btn">Get started</a></div>
+            </div>
+            <div class="header__right">
+                <div class="header__right__img">
+                    <img src="./pics/illustration-intro-1-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h4>Categories</h4>
+                <p>There are various categories in tech, where you can become an expert in the field. Here, you Master your language with lessons, quizzes, and projects designed for real-life scenarios. Create portfolio projects that showcase your new skills to help land your dream job.</p>
+                <div class="btn btn-primary">Learn More</div>
+            </div>
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-web-grid"></i></i></span>
+                    <h5>Web development</h5>
+                    <p>Website development deals with developing a responsive website using mark-up and programming languages </p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-palette"></i></span>
+                    <h5>Graphics Design</h5>
+                    <p>Graphic design is a form of communication that uses colors, shapes, images, and words to create visual content</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-database"></i></span>
+                    <h5>Data Science</h5>
+                    <p>Data science is the field of applying  scientific principles to extract information from data for business decision-making</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-megaphone"></i></span>
+                    <h5>Marketing Technology</h5>
+                    <p>Marketing technology, also known as MarTech, describes a range of software and tools that assist in achieving marketing goals or objectives.</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-apps"></i></span>
+                    <h5>App Development</h5>
+                    <p>App Development refers to the creation of computer applications for use on mobile devices such as tablets, smartphones and smart watches</p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-screw"></i></i></span>
+                    <h5>Hard-Ware Development</h5>
+                    <p>Hardware development is a complex effort that includes the creation of electronics that perform various computational processes</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="courses">
+        <h2>Popular Courses</h2>
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image"><img src="./pics/web1.png" alt=""></div>
+                <div class="course__info">
+                    <h3>Responsive web Development</h3>
+                    <p>Most of our student loves creating web pages that look good on all devices! A responsive web design that will automatically adjust for different screen sizes ...</p>
+                    <a href="https://www.w3schools.com/html/html_responsive.asp"><div class="btn btn-primary">Learn More</div></a>
+                </div>
+            </article>
+            <article class="course">
+                <div class="course__image"><img src="./pics/gd1.png" alt=""></div>
+                <div class="course__info">
+                    <h3>UI/UX & Graphics Design</h3>
+                    <p>40% of Our student are graphics/ UI/UX designer, creating visual compositions to solve problems and communicating ideas through typography, imagery, color and form</p>
+                    <a href="https://www.interaction-design.org/literature/topics/graphic-design#:~:text=Graphic%20design%20is%20a%20craft,to%20optimize%20the%20user%20experience."><div class="btn btn-primary">Learn More</div></a>
+                </div>
+            </article>
+            <article class="course">
+                <div class="course__image"><img src="./pics/datascience.png" alt=""></div>
+                <div class="course__info">
+                    <h3>Data Science</h3>
+                    <p>Data science is a Popular course in our academy, using algorithms and systems to extract knowledge and insights from noisy, structured and unstructured data, and apply knowledge from data across a broad range of application domains
+                    </p>
+                    <a href="https://ng.gigapromo.com/ws?q=steps%20in%20app%20development&asid=giga_ng_gc1_03&mt=b&nw=g&de=c&ap=&ac=10108&cid=10503344592&aid=105376697938&locale=en_NG&gclid=Cj0KCQjwtvqVBhCVARIsAFUxcRt8t_xfcxAB2wy3LwgZ4Jb2fixLpDI1tTBD52IyY_AvlBGOlXEoHWYaAu_yEALw_wcB"><div class="btn btn-primary">Learn More</div></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs__container">
+            <article class="faq">
+                <span class="faq__icon"><i class="uil uil-plus"></i></span>
+                <div class="faqs__info">
+                    <h4 id="iiii">How do i apply?</h4>
+                    <p id="kkk">Go to <b>courses</b>, look for the course you wish to go for, click on the learn more and fill the form. Nessesary informations will be given after doing after that. <br> <a href="./courses.html">Courses<i class="uil uil-arrow-right"></i></a>
+                    </p>
+                </div>
+            </article>
+            <article class="faq">
+                <span class="faq__icon"><i class="uil uil-plus"></i></span>
+                <div class="faqs__info">
+                    <h4>How do I know the best course to study?</h4>
+                    <p>Identify which category you fall under. ...
+                        2) Ask yourself why you want to study. ...
+                        3) Decide on what career you want. ...
+                        4) Study Destination. ...
+                        5) Mode of study. ...
+                        6) Identify the most important factors you are considering. ...
+                        7) Research. ...
+                        You can also come to the front desk for more information <br> <a href="https://augstudy.com/guide/course-guide/10-steps-to-choosing-a-course/">Learn more <i class="uil uil-arrow-right"></i></a>
+                    </p>
+                </div>
+            </article>
+            <article class="faq">
+                <span class="faq__icon"><i class="uil uil-plus"></i></span>
+                <div class="faqs__info">
+                    <h4>How much is the school fees?</h4>
+                    <p>The fees are affordable, each of the courses has its own fee differently, because the cost of each of them differs. <br> <a href="./fee.html">Learn more <i class="uil uil-arrow-right"></i></a></p>
+                </div>
+            </article>  
+            <article class="faq">
+                <span class="faq__icon"><i class="uil uil-plus"></i></span>
+                <div class="faqs__info">
+                    <h4>What if I don’t have time to come to class?</h4>
+                    <p>
+                        In that case, you may consider joining either of our virtual classes or online tutorials.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <span class="faq__icon"><i class="uil uil-plus"></i></span>
+                <div class="faqs__info">
+                    <h4>Can I combine my work with the training?</h4>
+                    <p>
+                        of course you can work and learn ICT skills. Our learning options make it seamless to choose a plan of study that appeals to your personality or suits the nature of your work.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <span class="faq__icon"><i class="uil uil-plus"></i></span>
+                <div class="faqs__info">
+                    <h4>Can I combine the IT with my academics?</h4>
+                    <p>
+                        Yes you can, you can combine your ICT training with your academic. Whether you are in the university or you’re a secondary school student, our calendar and learning options are flexible and can be tailored to suit your way of life..</p>
+                </div>
+            </article>
+            <article class="faq">
+                <span class="faq__icon"><i class="uil uil-plus"></i></span>
+                <div class="faqs__info">
+                    <h4>Tell me about your scholarships?</h4>
+                    <p>
+                        The scholarship program is open to everybody that is intrested in tech.
+                        This annual scholarship program gives everyone an opportunity to take any of our ICT courses at no cost provided you scored 80% and above.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <span class="faq__icon"><i class="uil uil-plus"></i></span>
+                <div class="faqs__info">
+                    <h4>Do you wear school uniform?</h4>
+                    <p>No, students are to wear casual dresses (moderately) </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+
+
+    <!-- <section class="container testimonial__container ">
+        <h2>Testimonials</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./pics/04.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Charles okoro</h5>
+                    <small>Web Developer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>It is a great place to learn. It is a condusive environment filled with loving and patient teachers,a wonderful and admirable manager and supportive and cheerful students. For the past month have been here, it's been great</p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./pics/10(1).jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Elon Musk</h5>
+                    <small>Web Developer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>I've compared other platforms to this one to be honest and they don't measure up. The platforms that give a comparable level of the quality of skills cost a lot more and don't even offer a guarantee of access to real world project and situations... The ones available at a cheaper price so to say do not give a level of quality even close to it... Some platforms charge a lot more and yet still falter in the delivery of good contents... Another aspect that I noticed in comparison is that instructors are actually interested in ensuring their students understand what they are learning. They take joy in ensuring the students comprehend and are able to apply what is being taught and explain in the simplest ways possible to ensure maximum comprehension....I'm not sharing this because I have any affiliation, I'm doing so because it's simply the truth. If anyone else tries to make their research, they will find out that it's true too.</p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./pics/02.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Paul Peace</h5>
+                    <small>Web Developer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>It's an awesome place to learn. It has a serene environment, the tutors are friendly and very explanatory. I really love the place</p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./pics/09.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Olaoye Damilola</h5>
+                    <small>Web Developer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>A great citadel to be a expert in any field in tech</p>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section> -->
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <article class="footer__1">
+                <h4>My School</h4>
+                <p>Learn how to become a good and marketable developer with expert tutors in the industry</p>
+            </article>
+            <article class="footer__2">
+                <h4>Permalinks</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./innerHTML/about.html">About</a></li>
+                    <li><a href="./innerHTML/courses.html">Courses</a></li>
+                    <li><a href="./innerHTML/contact.html">Contact</a></li>
+                </ul>
+            </article>
+            <article class="footer__3">
+                <h4>Primacy</h4>
+                <ul>
+                    <li><a href="https://www.iubenda.com/en/help/36403-free-privacy-policy?gclid=Cj0KCQjw8O-VBhCpARIsACMvVLOJuVU0K9t1Dv1JJBRyJxcRLAiwq8lvwJOONrzzRvDBs8NLM8MjWbsaApiLEALw_wcB">Privacy Policy</a></li>
+                    <li><a href="">Terms and condition</a></li>
+                    <li><a href="">Refund Policy</a></li>
+                    
+                </ul>
+            </article>
+            <article class="footer__4">
+                <h4>Contact Us</h4>
+                <p>+01 234 567 890</p>
+                <p>ogunwoleabraham21@gmail.com</p>
+                <div class="social__links">
+                    <ul >
+                        <li><a href="https://www.facebook.com/"><i class="uil uil-facebook-f"></i></a></li>
+                        <li><a href="https://www.twitter.com/"><i class="uil uil-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/"><i class="uil uil-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="uil uil-instagram-alt"></i></a></li>
+                    </ul>
+                    
+                </div>
+                
+            </article>
+        </div>
+        <div class="footer__copyright">
+            <small>Ogunwole Abraham, copyright 2022</small>
+        </div>
+    </footer>
+    
+
+    
+    
+
+    
+    <script src="./main.js"></script>
+</body>
+</html>
